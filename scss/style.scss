@@ -1,0 +1,72 @@
+/*-----IMPORTED STYLES FOR OTHER ELEMENTS-----*/
+@import 'config';
+@import 'modal';
+@import 'social';
+
+
+/*-----GLOBAL STYLES-----*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: $Light-Grayish-Blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    font-family: "Manrope", sans-serif;
+    font-size: $Font-size;
+}
+i{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.show{
+    display: flex;
+}
+
+
+/*-----GLOBAL STYLES AND NEXTED CONTAINER STYLES-----*/
+.container{
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 1rem;
+
+    .container-image{
+        background-image: url(/images/drawers.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 250px;
+        width: 100%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .container-info{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    
+        .bold{
+            color: $Very-Dark-Grayish-Blue;
+            font-weight: 700;
+        }
+        .opacity{
+            
+            color: $Grayis-Blue;
+        }
+        
+    }
+    
+}
+
+/*-----IMPORTED DESKTOP STYLES-----*/
+@import 'desktop';
