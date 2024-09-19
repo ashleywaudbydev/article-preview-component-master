@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://00awaudby.github.io/article-preview-component-master/)
+- Live Site URL: https://00awaudby.github.io/article-preview-component-master/
 
 ## My process
 
