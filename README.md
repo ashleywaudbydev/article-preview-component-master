@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot_19-9-2024_104753_00awaudby github io](https://github.com/user-attachments/assets/2bdc24cb-c9f3-4db1-8d72-e511460eb8cc)
 
 
 
